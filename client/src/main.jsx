@@ -14,8 +14,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      }}
      audience="https://full-stack-real-estate-youtube.vercel.app/api"
      scope="openid profile email"
-    >
+    />
       <App />
-    </Auth0Provider>
+    {/* </Auth0Provider> */}
   </React.StrictMode>
 );
