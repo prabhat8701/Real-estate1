@@ -27,7 +27,7 @@ const Layout = () => {
 
       const res = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "https://full-stack-real-estate-youtube.vercel.app/api",
+          audience: "http://localhost:8000",
           scope: "openid profile email",
         },
       });
